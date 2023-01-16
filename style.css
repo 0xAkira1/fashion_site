@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F2F2F2;
+    width: 1920px;
+    
+height:4604px
+}
+.logo{
+    font-family: 'PT Serif';
+font-weight: 700;
+font-size: 25px;
+line-height: 33px;
+letter-spacing: 2.5px;
+
+color: #171717;
+}
+.nav-logo{
+    position: absolute;
+    top:30px;
+    left:80px
+}
+.rectangle{
+    position: absolute;
+top: 22px;
+bottom: 12.5%;
+background: #C9A96E;
+mix-blend-mode: normal;
+opacity: 0.35;
+width:125px;
+height:6px
+}
+li{
+    list-style-type: none;
+}
+.nav-list{
+    position: absolute;
+    display: flex;
+    width: 368px;
+    height: 19px;
+    top: 42px;
+    left: 1471px;
+   justify-content: space-between;
+}
+.list-item{
+    font-family: 'PT Serif';
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+color: #171717;
+align-items: center;
+
+
+
+}
+.list-item::first-letter{
+    text-transform: uppercase;
+}
+.list-item:hover{
+    transition-duration: 0.3s;
+    color: #C9A96E;
+    
+}
+.main-image{
+    position: relative;
+   width: 1920px;
+height: 700px;
+
+top: 100px;
+}
+.vehicle{
+    position: absolute;
+height: 18px;
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+left:375px;
+top:590px;
+}
+.main-text{
+    position: absolute;
+height: 100px;
+width: 560px;
+font-family: 'PT Serif';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 50px;
+color: #FFFFFF;
+top:612px;
+left: 375px;
+}
+.date{
+    position: absolute;
+height: 19px;
+width: 283px;
+font-family: 'PT Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+color: #FFFFFF;
+top: 722px;
+left: 375px;
+}
+
+.container{
+    position: absolute;
+    display: grid;
+    top: 860px;
+    left: 375px;
+    
+    grid-template-columns: 370px 370px;
+    grid-template-rows: 411px 411px 411px 561px 411px 411px;
+    column-gap: 30px;
+    row-gap: 30px;
+    /* filter: drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.1)); */
+    grid-template-areas: "one two"
+                         "three four"
+                         "five six"
+                         "seven seven"
+                         "eight nine"
+                         "ten eleven";
+}   
+.block-item1{
+    grid-area: one;
+}
+.block-item2{
+    grid-area: two;
+}
+.block-item3{
+    grid-area: three;
+}
+.block-item4{
+    grid-area: four;
+}
+.block-item5{
+    grid-area: five;
+}
+.block-item6{
+    grid-area: six;
+}
+.block-item7{
+    grid-area: seven;
+}
+.block-item8{
+    grid-area: eight;
+}
+.block-item9{
+    grid-area: nine;
+}
+.block-item10{
+    grid-area: ten;
+}
+.block-item11{
+    grid-area: eleven;
+}
+
+.dop_block{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
+    height: 131px;
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 6px;
+    
+}
+p.head{
+    height: 16px;
+    font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+text-transform: uppercase;
+color: #C9A96E;
+padding-top: 15px;
+margin-bottom: 4px;
+
+}
+.second-text{
+    height: 56px;
+    font-family: 'PT Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+text-align: center;
+color: #171717;
+margin-bottom: 10px;
+}
+.date_2{
+    height: 16px;
+    font-family: 'PT Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+color: #666666;
+}
+.dop_blockBig{
+    
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 6px;
+    padding-left: 30px;
+    height: 212px;
+}
+.headBig{
+    font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+padding-top: 25px;
+text-transform: uppercase;
+margin-bottom: 6px;
+color: #C9A96E;
+}
+.second-textBig{
+    font-family: 'PT Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+text-align: center;
+color: #171717;
+margin-bottom: 11px;
+}
+.date_2Big{
+    font-family: 'PT Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+margin-bottom: 14px;
+color: #666666;
+}
+.new_info{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+   width: 614px;
+   height: 72px;
+       
+    color: #666666;
+}
+   
